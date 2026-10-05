@@ -1,0 +1,2 @@
+cd C:\Research\Simulations
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/CodeExecution/Invoke-ReflectivePEInjection.ps1" -OutFile "Invoke-ReflectivePEInjection.ps1"

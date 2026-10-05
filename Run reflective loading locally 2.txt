@@ -1,0 +1,5 @@
+. .\Invoke-ReflectivePEInjection.ps1
+
+# Load any DLL into the PowerShell process reflectively
+$PEBytes = [IO.File]::ReadAllBytes("C:\Windows\System32\amsi.dll")
+Invoke-ReflectivePEInjection -PEBytes $PEBytes
